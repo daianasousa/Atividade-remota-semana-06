@@ -3,9 +3,11 @@ def maior_menor():
     
     while True:
         numero = int(input('Digite um número: '))
+        maior = numero
+        menor = numero
     
-    
-        if numero == 0: break
+        if numero == 0:
+            break
 
 
         if cont == 0 and numero != 0:
